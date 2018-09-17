@@ -21,7 +21,7 @@ public class MemberCheck {
 			 trash = unified.addAll(twothree);
 			 ArrayList<String> sorting = new ArrayList<String>(unified);
 			 Collections.sort(sorting);
-			 String[] names = sorting.toArray(new String[sorting.size()]);
+			 String[] names = sorting.toArray(new String[0]);
 			 return names;
       }
    }
